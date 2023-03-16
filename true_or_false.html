@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>true or false </title>
+</head>
+<body>
+    <style> body{ background-color: black;
+    font-style: normal; color: aliceblue;
+    
+    
+
+
+
+    }
+    
+
+    </style>
+    <script>
+        var nome = window.prompt('qual seu nome?')
+        var idade = window.prompt('qual a sua idade?')
+
+
+
+        
+        window.confirm('esta pronto para as perguntar e pra saber como esta seu nivel no inicio dessa jornada em javaScript?')
+        window.alert('lembre-se, isto é um site experimental feito como projeto de um aluno (eu) bem novo que esta começando, qualquer erro pode constatar no insta (@Lzk001) ou no github aonde vc provavelmente pegou esse codigo.')
+        window.alert('leia tudo seu procrastinador!  para simplificar, as respostas serao (1) para "sim" e (2) para "nao"  espero que tenha lido e entendido, agora vamos para as perguntas e saber se voce esta bem (ou nao)')
+        
+        var sn = window.prompt(' PERGUNTA 1                     string e number são a mesma coisa?')
+        document.write(`${sn == 2?"exato, string e number não sao a mesma coisa, strings sao palavras ou caracteres como cpf, etc, number sao numeros inteiros ou reais" : "naao, calma pequeno gafanhoto, string e number não sao a mesma coisa, strings sao palavras ou caracteres como cpf, etc, number sao numeros inteiros ou reais </br> </br> </br> "}`)
+
+        var D2E = window.prompt(' PERGUNTA 2                    o operario logico "&&" so aparece "true" se receber os 2 objetos pedidos?')
+        document.write(`${D2E == 1?" </br> </br> </br> exato, como mostra a tabela a seguir: </br> true && true = true </br> true && false = false </br> false && true = false </br> false && false = false </br> os operadores so aceitam se receber os 2 objetos pedidos. </br> </br> </br> ":""}`)
+
+        var boole1= window.prompt('boleean é um data type aonde so existem 2 opções, no caso: true or false?')
+        document.writer(`${boole1 == 1?" </br> </br> </br> sim, voce esta indo muito bem, pequeno gafanhoto":"naao, o boolean so tem 2 alternativas, true or false."}`)
+        
+
+        document.write(`ola! ${nome}, seja bem vindo </br>`)
+        document.write(`${idade >=18?" parabens, vc tem mais de 18 anos e pode continuar com esse site porem nao esqueça! esse site é experimental e criado por um estudante de ensino medio." : "ok! sabemos que voce nao tem  18 anos </br> masssss </br> pode ver seus resultados logo em seguida </br> porem! </br> cuidado, esse site é experimental e feito por alguem mais novo ou da sua idade."} 
+    `)
+   
+
+    </script>
